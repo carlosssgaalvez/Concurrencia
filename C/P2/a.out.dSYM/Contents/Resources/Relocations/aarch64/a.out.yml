@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     a.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _crearFicheroAleatorios, symObjAddr: 0x0, symBinAddr: 0x100003C58, symSize: 0x14 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _crearFicheroAleatorios, symObjAddr: 0x0, symBinAddr: 0x100003C58, symSize: 0x14 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: _mostrarFicheroAleatorios, symObjAddr: 0x14, symBinAddr: 0x100003C6C, symSize: 0x10 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _cargaFichero, symObjAddr: 0x24, symBinAddr: 0x100003C7C, symSize: 0x14 }
+  - { offsetInCU: 0xCA, offset: 0xCA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x38, symBinAddr: 0x100003C90, symSize: 0x190 }
+  - { offsetInCU: 0x26, offset: 0x3B3, size: 0x8, addend: 0x0, symName: _crear, symObjAddr: 0x0, symBinAddr: 0x100003E20, symSize: 0x10 }
+  - { offsetInCU: 0x33, offset: 0x3C0, size: 0x8, addend: 0x0, symName: _crear, symObjAddr: 0x0, symBinAddr: 0x100003E20, symSize: 0x10 }
+  - { offsetInCU: 0x57, offset: 0x3E4, size: 0x8, addend: 0x0, symName: _destruir, symObjAddr: 0x10, symBinAddr: 0x100003E30, symSize: 0x10 }
+  - { offsetInCU: 0x7B, offset: 0x408, size: 0x8, addend: 0x0, symName: _insertar, symObjAddr: 0x20, symBinAddr: 0x100003E40, symSize: 0x14 }
+  - { offsetInCU: 0xAD, offset: 0x43A, size: 0x8, addend: 0x0, symName: _mostrar, symObjAddr: 0x34, symBinAddr: 0x100003E54, symSize: 0x10 }
+  - { offsetInCU: 0xD1, offset: 0x45E, size: 0x8, addend: 0x0, symName: _salvar, symObjAddr: 0x44, symBinAddr: 0x100003E64, symSize: 0x14 }
+  - { offsetInCU: 0x103, offset: 0x490, size: 0x8, addend: 0x0, symName: _salvarTexto, symObjAddr: 0x58, symBinAddr: 0x100003E78, symSize: 0x14 }
+...

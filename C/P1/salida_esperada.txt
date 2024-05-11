@@ -1,0 +1,29 @@
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 999
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 500 Fin: 999
+Se han reservado 500 bloques desde la direccion: 0
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 199
+Bloque 1 Inicio: 500 Fin: 999
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 199
+Bloque 1 Inicio: 750 Fin: 999
+Se han reservado 250 bloques desde la direccion: 500
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 199
+Bloque 1 Inicio: 500 Fin: 599
+Bloque 2 Inicio: 750 Fin: 999
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 199
+Bloque 1 Inicio: 500 Fin: 599
+Se han reservado 250 bloques desde la direccion: 750
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 199
+Bloque 1 Inicio: 500 Fin: 599
+Bloque 2 Inicio: 750 Fin: 949
+**** Mostrando la memoria ****
+Bloque 0 Inicio: 0 Fin: 999
+**** Mostrando la memoria ****
+No hay memoria disponible
+Fin Programa

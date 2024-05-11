@@ -1,0 +1,17 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/carlossgaalvez/Concurrencia2024/Junio2017C/Principal'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _crearLista, symObjAddr: 0x0, symBinAddr: 0x100003830, symSize: 0x20 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _crearLista, symObjAddr: 0x0, symBinAddr: 0x100003830, symSize: 0x20 }
+  - { offsetInCU: 0x66, offset: 0x66, size: 0x8, addend: 0x0, symName: _encontrarAbscisa, symObjAddr: 0x20, symBinAddr: 0x100003850, symSize: 0x70 }
+  - { offsetInCU: 0xAA, offset: 0xAA, size: 0x8, addend: 0x0, symName: _insertarPunto, symObjAddr: 0x90, symBinAddr: 0x1000038C0, symSize: 0x1C0 }
+  - { offsetInCU: 0x13E, offset: 0x13E, size: 0x8, addend: 0x0, symName: _eliminarPunto, symObjAddr: 0x250, symBinAddr: 0x100003A80, symSize: 0xE0 }
+  - { offsetInCU: 0x1A8, offset: 0x1A8, size: 0x8, addend: 0x0, symName: _mostrarLista, symObjAddr: 0x330, symBinAddr: 0x100003B60, symSize: 0x80 }
+  - { offsetInCU: 0x1CC, offset: 0x1CC, size: 0x8, addend: 0x0, symName: _destruir, symObjAddr: 0x3B0, symBinAddr: 0x100003BE0, symSize: 0x50 }
+  - { offsetInCU: 0x20C, offset: 0x20C, size: 0x8, addend: 0x0, symName: _leePuntos, symObjAddr: 0x400, symBinAddr: 0x100003C30, symSize: 0x88 }
+  - { offsetInCU: 0x26, offset: 0x4DE, size: 0x8, addend: 0x0, symName: _f, symObjAddr: 0x0, symBinAddr: 0x100003CC0, symSize: 0x30 }
+  - { offsetInCU: 0x48, offset: 0x500, size: 0x8, addend: 0x0, symName: _f, symObjAddr: 0x0, symBinAddr: 0x100003CC0, symSize: 0x30 }
+  - { offsetInCU: 0x70, offset: 0x528, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x30, symBinAddr: 0x100003CF0, symSize: 0x160 }
+  - { offsetInCU: 0xD0, offset: 0x588, size: 0x8, addend: 0x0, symName: _main2, symObjAddr: 0x190, symBinAddr: 0x100003E50, symSize: 0x59 }
+...
