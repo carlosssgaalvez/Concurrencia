@@ -14,10 +14,9 @@ public class Consumidor extends Thread {
 	public void run()
 	{
 		try {
-			int elem;
 			for(int i=0; i<iter; i++)
 			{
-				elem = buffer.consumir(id);
+				buffer.consumir(id);
 			}
 		} catch (InterruptedException e) {
 			System.out.println("Consumidor interrumpido");
