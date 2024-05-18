@@ -21,7 +21,8 @@ public class Control {
 		System.out.println("Cola de turnos");
 		System.out.println(turnos);
 
-		while(id != turnos.get(0) || recursos < num){
+		//Si no es el primer proceso de la cola nunca podra coger recursos aunque haya los suficientes
+		while(id != turnos.get(0) || recursos < num){ //condicion de sincronizacion
 			wait();
 		}
 		System.out.println("Proceso "+id+" coge "+num+" recursos");

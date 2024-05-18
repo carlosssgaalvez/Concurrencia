@@ -3,8 +3,6 @@ public class Buffer {
 	private int p; /*posicion por la que se va produciendo*/
 	private int c[]; /*posicion por la que se va consumiendo cada consumidor*/
 	private int[] elem; 
-	//TODO
-
 
 	//para cada consumidor, numero de elementos que tiene por consumir
 	private int[] porConsumir;
@@ -12,7 +10,7 @@ public class Buffer {
 	//numero de lecturas que se han hecho de cada elemento
 	private int[] numLecturas;
 
-	// numero huecos libres para poder consumir
+	// numero huecos libres para poder producir
 	private int huecos;
 
 	// numero de consumidores
@@ -41,8 +39,8 @@ public class Buffer {
 	
 	//Productor
 	public synchronized void producir(int id, int e) throws InterruptedException{		
-		//TODO
-		while(huecos == 0){
+		
+		while(huecos == 0){ //condicion de sincronizacion
 			wait();
 		}		
 
@@ -71,8 +69,8 @@ public class Buffer {
 		
 	}
 	
-	public int consumir(int id) throws InterruptedException{
-		while(porConsumir[id] == 0) {
+	public synchronized int consumir(int id) throws InterruptedException{
+		while(porConsumir[id] == 0) { //condicion de sincronizacion
 			wait();
 		}	
 
