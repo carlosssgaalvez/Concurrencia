@@ -4,7 +4,7 @@ public class Principal {
 		
 		Pasajero2[] pas = new Pasajero2[10]; //10 pasajeros
 		for (int i = 0; i<pas.length; i++){
-			pas[i] = new Pasajero2(i,c);
+			pas[i] = new Pasajero(i,c);
 		}
 		ControlAtraccion control = new ControlAtraccion(c);
 		
