@@ -2,9 +2,9 @@ public class Principal {
 	public static void main(String[] args) {
 		Coche c = new Coche(); //Un coche
 		
-		Pasajero[] pas = new Pasajero[10]; //10 pasajeros
+		Pasajero2[] pas = new Pasajero2[10]; //10 pasajeros
 		for (int i = 0; i<pas.length; i++){
-			pas[i] = new Pasajero(i,c);
+			pas[i] = new Pasajero2(i,c);
 		}
 		ControlAtraccion control = new ControlAtraccion(c);
 		
